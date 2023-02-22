@@ -1,0 +1,7 @@
+langchain==0.0.87
+openai
+unstructured # if on windows this may break because confusion of python-magic and python-magic-bin pypi pkgs...
+# unstructured[local-inference] # Langchain
+faiss-cpu # use faiss-cpu if on windows, faiss-gpu if on linux
+gradio
+git+https://github.com/ifrit98/gpt_index.git
